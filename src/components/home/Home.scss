@@ -1,0 +1,48 @@
+.Home {
+    background-color: var(--primary-text-color);
+
+    .Home-container {
+        height: 100%;
+        padding-block: 40px;
+        flex-direction: column;
+        
+        .profile-icon {
+            .icon {
+                width: 250px;
+                height: 250px;
+                
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    object-fit: contain;
+                }
+            }
+        }
+
+        .left-container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 25px;
+            margin: 10px;
+            border: 1px solid white;
+            border-radius: 10px;
+
+            .changing-text{
+                display: flex;
+                font-size: 30px !important;
+
+                .text-color {
+                    color: red;
+                }
+            }
+
+            .changing-text span{
+                display: inline-block;
+                margin: 0 7px 0 0 ;
+            }
+          }
+
+    }
+}
