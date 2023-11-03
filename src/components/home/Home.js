@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from '../navbar/Navbar'
 import './Home.scss'
-import profileImg from '../../assets/download (1).png'
+import profileImg from '../../assets/profile.png'
 import TextTransition, { presets } from 'react-text-transition';
 
 function Home() {
